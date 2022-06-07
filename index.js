@@ -1,5 +1,5 @@
 
-import './commands'
+import './cypress/support/commands'
 import addContext from 'mochawesome/addContext'
 
 Cypress.on("test:after:run", (test, runnable) => {
